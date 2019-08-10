@@ -36,7 +36,7 @@ Lastly, the data folder contains the dataset from Kaggle (https://www.kaggle.com
 
     From the correlation matrix below we can immediately see which parameters correlate most with the price. The number of people that the list can include is the most significant factor, but amenities are also key.
 
-    ![Correlation](.\images\correlation.png)
+    ![Correlation](./images/correlation.png)
 
     In fact, the relationship between housing and pricing is linear , showing how important it is to manage more people if you want a good price.
 
@@ -46,7 +46,7 @@ Lastly, the data folder contains the dataset from Kaggle (https://www.kaggle.com
 
     From the heat map above we can see that the most important factor in getting good reviews is to respond to all the guests' requests, which is not too surprising.
 
-    ![Review Score](.\images\review-score.PNG)
+    ![Review Score](./images/review-score.PNG)
 
     There is a small correlation between bathrooms, price and review score. This might be due to standard. Higher standard listings gets better reviews. limitations on maximum nights are bad for review score and availablity is also relevant.
 
