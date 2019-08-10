@@ -14322,14 +14322,6 @@ memory usage: 798.0+ KB
 <p>From the correlation heatmap we can see that the most important factor for getting good reviews is to respond on all requests that guests have(host response rate), which isnt too surprising.</p>
 <p>It also seems that hosts with many listings gets worse reviews than those who have 1 or few. One could think that having many listings could imply a worse response rate due the increased amount of inquires, but there is a very small correlation between response rate and listings count. I dont have data too support this theory, but I belive that listings by hosts with many other listings are perceived as simple and sterile with focus on maximizing economic profits while listings from people who live in the same appartment are perceived as more cozy and warm.</p>
 <p>There is a small correlation between bathrooms, price and review score. I belive this is due to standard. Higher standard listings get better reviews. limitations on maximum nights are bad for review score and availablity is relevant.</p>
-<p>So to get the best reviews, you should:</p>
-<ul>
-<li>Not have too many listings</li>
-<li>Respond on every inquery you get</li>
-<li>Dont have limitations on nights to stay</li>
-<li>include ammenities like parking space, TV and Internet</li>
-<li>High availibility (this one you might disregard if you want to make money :) )</li>
-</ul>
 
 </div>
 </div>
@@ -14360,8 +14352,8 @@ memory usage: 798.0+ KB
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I wanted to experiment with different ways of treating missing values, I made 1 dataset where all Nans 
 was just dropped and another with imputaion.
-I tried both imputation by mean and i tried replaciong NaN's with the most frequent element in each column. 
-The upside of imputation is that I would not have to drop as musch data, but the downside is that it can really amplify 
+I tried both imputation by mean and i tried replacing NaN's with the mode element in each column. 
+The upside of imputation is that I would not have to drop as much data, but the downside is that it can really amplify 
 trends in the data that might not be correct. In the end both my trials with imputations gave worse results than just dropping all Nans.</p>
 
 </div>
@@ -14663,7 +14655,7 @@ trends in the data that might not be correct. In the end both my trials with imp
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>SVM requires normalization of the data in order to get good results. If not some features will be given more weights than others. I used standardscaler to make sure all features gets evaluated equally</p>
+<p>SVM requires normalization of the data in order to get good results. I used standardscaler to make sure all features gets evaluated equally</p>
 
 </div>
 </div>
@@ -15201,7 +15193,7 @@ D:\Users\kaila\Anaconda2\envs\py36\lib\site-packages\sklearn\model_selection\_se
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><p>The best model was Random Forest. It did several experiments on imputaion on the missing data, adding and removing features and different hypertuning. Random Forest came out on top every time. Its best estimat was a r2 score of 0.65 which means that the model can ecplain 65% of the variance in price. The dataset contains little information about standard besides amenities, and I belive that a substantial amount of the remaining unexplained variance of price is related to standard.</p>
+<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><p>The best model was Random Forest. It did several experiments on imputaion on the missing data, adding and removing features and different hypertuning. Random Forest came out on top every time. Its best estimate was a r2 score of 0.53 which means that the model can explain 53% of the variance in price. The dataset contains little information about standard besides amenities, and I belive that a substantial amount of the remaining unexplained variance of price is related to standard.</p>
 
 </div>
 </div>
