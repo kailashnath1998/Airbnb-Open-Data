@@ -47,3 +47,5 @@ Before we step into Airbnb business, following questions would help us running t
 Credit to the AirBnB dataset published by AirBnB and Kaggle for hosting it, the dataset here: https://www.kaggle.com/airbnb/seattle
 
 Heatmap reference: https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe
+
+Images : https://unsplash.com
