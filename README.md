@@ -1,5 +1,7 @@
 ## AirBnB
 
+![Airport](./images/photo-1421789497144-f50500b5fcf0.jpg)
+
 ### What do you want to know before entering the Airbnb business?
 
 Airbnb market is growing for past few years, and more and more visitors choose it while travelling all over the world. Owning an property and renting it on the market helps creating potential opportunies on small business.
