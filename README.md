@@ -1,35 +1,5 @@
 ## AirBnB
 
-### Installations
-
-The project has been done in the Anaconda enviroment with python 3.7. Moreover I have used the following python libraries:
-
-- Matplotlib
-- NumPy
-- Pandas
-- Seaborn
-- Sklearn
-
-### Motivation
-
-I was interested in exploring the AirBnB dataset for Seattle. Some of the questions that I have analyzed are:
-
-- How to get the best price?
-- How to get better reviews?
-- Can a machine learning algorithm predict listing prices?
-
-### Files
-
-The Ipynb notebook showcases the analysis done in order to explore the dataset, the data prepartion and wrangling as well as the building of prediction models in order to answer the questions above. The notebook contains markdown cells to help with documentation of the steps as well as to communicate findings based on each analysis.
-
-For reference an HTML version of the notebook is also available.
-
-Lastly, the data folder contains the dataset from Kaggle (https://www.kaggle.com/airbnb/seattle). It contains 3 files:
-
-- calendar.csv: calendar availability of listings and price
-- listings.csv: information about all the available listings
-- reviews.csv: listing reviews by the users
-
 ### Summary Of The Results
 
 - Question 1: How to achieve the best price?
@@ -53,6 +23,8 @@ Lastly, the data folder contains the dataset from Kaggle (https://www.kaggle.com
 - Question 3 : Can a machine learning algorithm predict listing prices?
 
     I experimented with three different machine learning algorithms for this analysis: Support vector machines, AdaBoost and RandomForest.
+
+- Conclusion :
 
     In the end, Random forest turned ut to be the most accurate machine learning algorithm for this task with an R2-score of 0.53, meaning that the model can explain 53% of the price. The dataset contained little information about standard besides amenities, and I belive that a substantial amount of the remaining unexplained variance of price is related to standard.
 
