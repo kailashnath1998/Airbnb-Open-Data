@@ -1,5 +1,17 @@
 ## AirBnB
 
+### What do you want to know before entering the Airbnb business?
+
+Airbnb market is growing for past few years, and more and more visitors choose it while travelling all over the world. Owning an property and renting it on the market helps creating potential opportunies on small business.
+
+This post will take a look at the Airbnb history data in Seattle and try to provide some information on how to build your Airbnb business by analyzing the datas.
+
+Before we step into Airbnb business, following questions would help us running this business more easier:
+
+- How to achieve the best price?
+- How to achieve good reviews?
+- Can a machine learning algorithm predict listing prices?
+
 ### Summary Of The Results
 
 - Question 1: How to achieve the best price?
